@@ -78,8 +78,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <td>" . getAirlineName($row['airline_id']) . "</td>
                     <td>{$row['capacity']}</td>
                     <td>{$row['date']}</td>
-                    <td><a href='book_ticket.php?flight_id={$row['flight_id']}'>Book</a></td>
-                </tr>";
+                    <td><a href='booking.php?flight_id={$row['flight_id']}'>Book</a></td>
+                    </tr>";
         }
 
         echo "</table>";

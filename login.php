@@ -21,7 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $row = mysqli_fetch_array($result);
 
         if ($row["usertype"] == "user") {
-            header("location:user_home.php");
+            header("location:user/user_home.php");
         } elseif ($row["usertype"] == "admin") {
             header("location:admin_home.php");
         } else {

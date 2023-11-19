@@ -50,10 +50,13 @@
     <h3>Services</h3>
     <ul>
         <li>
-            <a href="add_flight.php">Add Flights</a>
+            <a href="admin/add_flight.php">Add Flights</a>
         </li>
         <li>
-            <a href="view_bookings.php">View Booking Details</a>
+            <a href="admin/view_bookings.php">View Booking Details</a>
+        </li>
+        <li>
+            <a href="admin/admin_e_checkin.php">E-CheckIn</a>
         </li>
     </ul>
 </body>
