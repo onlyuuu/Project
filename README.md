@@ -1,4 +1,4 @@
-# Project
+# Flight Ticket Booking Application
 This project is an Airline Ticket Booking System that allows users to search for flights, book tickets, and manage their bookings. 
 It also includes an admin interface for adding flights, viewing booking details, and managing e-checkin information.
 We also used MySQL Database for storing the data.
