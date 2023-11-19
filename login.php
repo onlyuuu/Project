@@ -1,5 +1,5 @@
 
-<<?php
+<?php
 $host = "localhost";
 $user = "root";
 $password = "";
@@ -23,7 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if ($row["usertype"] == "user") {
             header("location:user/user_home.php");
         } elseif ($row["usertype"] == "admin") {
-            header("location:admin_home.php");
+            header("location:admin/admin_home.php");
         } else {
             echo "Incorrect username or password";
         }

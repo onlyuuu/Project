@@ -45,18 +45,18 @@
     </style>
 </head>
 <body>
-    <h2>Welcome, Admin!</h2>
+    <h2>Welcome,Admin!</h2>
 
     <h3>Services</h3>
     <ul>
         <li>
-            <a href="admin/add_flight.php">Add Flights</a>
+            <a href="add_flight.php">Add Flights</a>
         </li>
         <li>
-            <a href="admin/view_bookings.php">View Booking Details</a>
+            <a href="booking_details.php">View Booking Details</a>
         </li>
         <li>
-            <a href="admin/admin_e_checkin.php">E-CheckIn</a>
+            <a href="admin_e_checkin.php">E-CheckIn</a>
         </li>
     </ul>
 </body>

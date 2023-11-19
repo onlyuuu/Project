@@ -40,11 +40,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <title>Registration</title>
     <style>
         body {
-            bottom: 200px;
             text-align: center;
-            background-image: url('images/background.jpg'); 
+            background-image: url('images/sky.jpg'); 
             background-size: cover;
             background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            color: #fff;
+            margin-top: 50px;
         }
 
         #registration {
@@ -54,6 +61,38 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             margin: 0 auto;
             padding: 20px;
             margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        label {
+            font-weight: bold;
+            color: #333;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input {
+            width: 50%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        input[type='submit'] {
+            background-color: #007BFF;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+
+        p {
+            color: #333;
+            margin-top: 10px;
         }
     </style>
 </head>
